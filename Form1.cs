@@ -174,7 +174,7 @@ namespace AppInstaller
             client.DownloadProgressChanged += DownloadProgress;
             await client.DownloadFileTaskAsync(new Uri("https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BA2AFEE09-00D4-4A6E-BFAB-365F04535F02%7D%26lang%3Den%26browser%3D5%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dtrue%26ap%3Dx64-stable-statsdef_0%26brand%3DGCEA/dl/chrome/install/googlechromestandaloneenterprise64.msi"), downloadpath);
             button1.Text = "Installing...";
-            var process = Process.Start(downloadpath, "/qn");
+            var process = Process.Start(downloadpath, "/quiet");
             process.WaitForExit();
             progressBar1.Visible = false;
             button1.Text = "Installed";
