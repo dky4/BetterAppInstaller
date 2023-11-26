@@ -17,6 +17,7 @@ using System.Security.AccessControl;
 using System.Runtime.InteropServices;
 using static AppInstaller.EffectBlur;
 using AutoUpdaterDotNET;
+using AppInstaller.Properties;
 
 namespace AppInstaller
 {
@@ -77,6 +78,8 @@ namespace AppInstaller
         public Form1()
         {
             InitializeComponent();
+
+
         }
 
         private async void button1_Click(object sender, EventArgs c)
@@ -97,7 +100,7 @@ namespace AppInstaller
             button1.Text = "Update";
             button5.Visible = true;
         }
-        
+
         private void DownloadProgress(object sender, DownloadProgressChangedEventArgs e)
         {
             progressBar1.Value = e.ProgressPercentage;
@@ -116,11 +119,45 @@ namespace AppInstaller
             }
             progressBar1.Visible = false;
 
+            if (AppSettings.Default.AcrylicMode)
+            {
+                if (AppSettings.Default.AcrylicMode = true)
+                {
+                    checkBox1.Checked = true;
+                    this.BackColor = System.Drawing.ColorTranslator.FromHtml("#010000");
+                    Settings.BackColor = System.Drawing.ColorTranslator.FromHtml("#010000");
+                    Utilities.BackColor = System.Drawing.ColorTranslator.FromHtml("#010000");
+                    Browsers.BackColor = System.Drawing.ColorTranslator.FromHtml("#010000");
+                    ChatApps.BackColor = System.Drawing.ColorTranslator.FromHtml("#010000");
+                    TabControl.BackColor = System.Drawing.ColorTranslator.FromHtml("#010000");
+                    Gaming.BackColor = System.Drawing.ColorTranslator.FromHtml("#010000");
+                    EnableBlur();
+                    label1.ForeColor = Color.White;
+                    label2.ForeColor = Color.White;
+                    label3.ForeColor = Color.White;
+                    label4.ForeColor = Color.White;
+                    label5.ForeColor = Color.White;
+                    label6.ForeColor = Color.White;
+                    label7.ForeColor = Color.White;
+                    label8.ForeColor = Color.White;
+                    label9.ForeColor = Color.White;
+                    label10.ForeColor = Color.White;
+                    label11.ForeColor = Color.White;
+                    label12.ForeColor = Color.White;
+                    label13.ForeColor = Color.White;
+                    label14.ForeColor = Color.White;
+                    label15.ForeColor = Color.White;
+                    checkBox1.ForeColor = Color.White;
+                    checkBox2.ForeColor = Color.White;
+                }
+
+            }
+
             if (checkBox2.Checked)
             {
                 if (checkBox2.Checked == true)
                 {
-                    AutoUpdater.Start("https://raw.githubusercontent.com/Endeade/endeade.github.io/main/appinstaller/autoupdater.xml");
+                    AutoUpdater.Start("https://raw.githubusercontent.com/RocketLauncher21/website/main/autoupdate.xml");
                 }
             }
         }
@@ -137,7 +174,7 @@ namespace AppInstaller
             client.DownloadProgressChanged += DownloadProgress;
             await client.DownloadFileTaskAsync(new Uri("https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BA2AFEE09-00D4-4A6E-BFAB-365F04535F02%7D%26lang%3Den%26browser%3D5%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dtrue%26ap%3Dx64-stable-statsdef_0%26brand%3DGCEA/dl/chrome/install/googlechromestandaloneenterprise64.msi"), downloadpath);
             button1.Text = "Installing...";
-            var process = Process.Start(downloadpath,"/qn");
+            var process = Process.Start(downloadpath, "/qn");
             process.WaitForExit();
             progressBar1.Visible = false;
             button1.Text = "Installed";
@@ -266,7 +303,7 @@ namespace AppInstaller
             wait(5000);
             button16.Text = "Update";
             button15.Visible = true;
-        }   
+        }
 
         private void button11_Click(object sender, EventArgs e)
         {
@@ -329,6 +366,8 @@ namespace AppInstaller
         {
             if (checkBox1.Checked)
             {
+                AppSettings.Default.AcrylicMode = true;
+                AppSettings.Default.Save();
                 string message = "Acrylic Mode is an experimental feature. Are you sure you want to enable it?";
                 string title = "AppInstaller - Experimental Feature";
                 MessageBoxButtons buttons = MessageBoxButtons.YesNo;
@@ -360,9 +399,12 @@ namespace AppInstaller
                     label15.ForeColor = Color.White;
                     checkBox1.ForeColor = Color.White;
                     checkBox2.ForeColor = Color.White;
+
                 }
                 else
                 {
+                    AppSettings.Default.AcrylicMode = false;
+                    AppSettings.Default.Save();
                     checkBox1.Checked = false;
                 }
 
@@ -403,7 +445,7 @@ namespace AppInstaller
         private void button23_Click(object sender, EventArgs e)
         {
             // only works on x64 systems, needs fix
-            string uninst = GetEnvironmentVariable("ProgramFiles(x86)") + "\\Steam\\uninstall.exe";  
+            string uninst = GetEnvironmentVariable("ProgramFiles(x86)") + "\\Steam\\uninstall.exe";
             button23.Text = "Uninstalling...";
             var process = Process.Start(uninst, "/S");
             process.WaitForExit();
