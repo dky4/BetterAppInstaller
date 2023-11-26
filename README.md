@@ -8,6 +8,6 @@ A revamped version of Endeade's AppInstaller
 - Clean UI
 
 ## Special Thanks
-@RocketLauncher21 - Lead Developer
-@Jevil7452 - Bug Tester
-@Endeade & @RocketLauncher21 - The original AppInstaller
+- @RocketLauncher21 - Lead Developer
+- @Jevil7452 - Bug Tester
+- @Endeade & @RocketLauncher21 - The original AppInstaller
