@@ -37,3 +37,4 @@ obj/Debug/AppInstaller.Properties.Resources.resources
 .vs/
 .vs/AppInstaller
 .vs/ProjectEvaluation
+*.suo
