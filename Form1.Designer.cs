@@ -53,6 +53,10 @@
             pictureBox2 = new System.Windows.Forms.PictureBox();
             pictureBox1 = new System.Windows.Forms.PictureBox();
             ChatApps = new System.Windows.Forms.TabPage();
+            label24 = new System.Windows.Forms.Label();
+            label23 = new System.Windows.Forms.Label();
+            label22 = new System.Windows.Forms.Label();
+            label21 = new System.Windows.Forms.Label();
             button15 = new System.Windows.Forms.Button();
             button16 = new System.Windows.Forms.Button();
             label11 = new System.Windows.Forms.Label();
@@ -70,6 +74,10 @@
             pictureBox5 = new System.Windows.Forms.PictureBox();
             pictureBox6 = new System.Windows.Forms.PictureBox();
             Gaming = new System.Windows.Forms.TabPage();
+            label28 = new System.Windows.Forms.Label();
+            label27 = new System.Windows.Forms.Label();
+            label26 = new System.Windows.Forms.Label();
+            label25 = new System.Windows.Forms.Label();
             button17 = new System.Windows.Forms.Button();
             button18 = new System.Windows.Forms.Button();
             label12 = new System.Windows.Forms.Label();
@@ -93,6 +101,7 @@
             checkBox1 = new System.Windows.Forms.CheckBox();
             progressBar1 = new System.Windows.Forms.ProgressBar();
             label16 = new System.Windows.Forms.Label();
+            label29 = new System.Windows.Forms.Label();
             TabControl.SuspendLayout();
             Browsers.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -117,7 +126,7 @@
             label1.AutoSize = true;
             label1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             label1.Location = new System.Drawing.Point(456, 8);
-            label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label1.Name = "label1";
             label1.Size = new System.Drawing.Size(352, 32);
             label1.TabIndex = 0;
@@ -128,7 +137,7 @@
             label2.AutoSize = true;
             label2.Font = new System.Drawing.Font("Segoe UI Semilight", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             label2.Location = new System.Drawing.Point(533, 40);
-            label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label2.Name = "label2";
             label2.Size = new System.Drawing.Size(190, 25);
             label2.TabIndex = 1;
@@ -142,7 +151,7 @@
             TabControl.Controls.Add(Utilities);
             TabControl.Controls.Add(Settings);
             TabControl.Location = new System.Drawing.Point(16, 80);
-            TabControl.Margin = new System.Windows.Forms.Padding(4);
+            TabControl.Margin = new System.Windows.Forms.Padding(5);
             TabControl.Name = "TabControl";
             TabControl.SelectedIndex = 0;
             TabControl.Size = new System.Drawing.Size(1280, 809);
@@ -150,6 +159,7 @@
             // 
             // Browsers
             // 
+            Browsers.Controls.Add(label29);
             Browsers.Controls.Add(label20);
             Browsers.Controls.Add(label19);
             Browsers.Controls.Add(label18);
@@ -172,9 +182,9 @@
             Browsers.Controls.Add(pictureBox1);
             Browsers.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             Browsers.Location = new System.Drawing.Point(4, 26);
-            Browsers.Margin = new System.Windows.Forms.Padding(4);
+            Browsers.Margin = new System.Windows.Forms.Padding(5);
             Browsers.Name = "Browsers";
-            Browsers.Padding = new System.Windows.Forms.Padding(4);
+            Browsers.Padding = new System.Windows.Forms.Padding(5);
             Browsers.Size = new System.Drawing.Size(1272, 779);
             Browsers.TabIndex = 0;
             Browsers.Text = "Browsers";
@@ -183,8 +193,8 @@
             // label20
             // 
             label20.AutoSize = true;
-            label20.Location = new System.Drawing.Point(124, 438);
-            label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label20.Location = new System.Drawing.Point(118, 436);
+            label20.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label20.Name = "label20";
             label20.Size = new System.Drawing.Size(461, 16);
             label20.TabIndex = 23;
@@ -193,8 +203,8 @@
             // label19
             // 
             label19.AutoSize = true;
-            label19.Location = new System.Drawing.Point(124, 300);
-            label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label19.Location = new System.Drawing.Point(115, 297);
+            label19.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label19.Name = "label19";
             label19.Size = new System.Drawing.Size(404, 16);
             label19.TabIndex = 22;
@@ -203,8 +213,8 @@
             // label18
             // 
             label18.AutoSize = true;
-            label18.Location = new System.Drawing.Point(124, 172);
-            label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label18.Location = new System.Drawing.Point(116, 161);
+            label18.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label18.Name = "label18";
             label18.Size = new System.Drawing.Size(442, 16);
             label18.TabIndex = 21;
@@ -213,8 +223,8 @@
             // label17
             // 
             label17.AutoSize = true;
-            label17.Location = new System.Drawing.Point(124, 44);
-            label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label17.Location = new System.Drawing.Point(118, 34);
+            label17.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label17.Name = "label17";
             label17.Size = new System.Drawing.Size(447, 32);
             label17.TabIndex = 20;
@@ -222,10 +232,10 @@
             // 
             // button9
             // 
-            button9.Location = new System.Drawing.Point(265, 500);
-            button9.Margin = new System.Windows.Forms.Padding(4);
+            button9.Location = new System.Drawing.Point(262, 474);
+            button9.Margin = new System.Windows.Forms.Padding(5);
             button9.Name = "button9";
-            button9.Size = new System.Drawing.Size(133, 30);
+            button9.Size = new System.Drawing.Size(133, 29);
             button9.TabIndex = 19;
             button9.Text = "Uninstall";
             button9.UseVisualStyleBackColor = true;
@@ -234,10 +244,10 @@
             // 
             // button8
             // 
-            button8.Location = new System.Drawing.Point(269, 363);
-            button8.Margin = new System.Windows.Forms.Padding(4);
+            button8.Location = new System.Drawing.Point(262, 334);
+            button8.Margin = new System.Windows.Forms.Padding(5);
             button8.Name = "button8";
-            button8.Size = new System.Drawing.Size(133, 30);
+            button8.Size = new System.Drawing.Size(133, 29);
             button8.TabIndex = 18;
             button8.Text = "Uninstall";
             button8.UseVisualStyleBackColor = true;
@@ -246,10 +256,10 @@
             // 
             // button7
             // 
-            button7.Location = new System.Drawing.Point(269, 235);
-            button7.Margin = new System.Windows.Forms.Padding(4);
+            button7.Location = new System.Drawing.Point(262, 202);
+            button7.Margin = new System.Windows.Forms.Padding(5);
             button7.Name = "button7";
-            button7.Size = new System.Drawing.Size(133, 30);
+            button7.Size = new System.Drawing.Size(133, 29);
             button7.TabIndex = 17;
             button7.Text = "Uninstall";
             button7.UseVisualStyleBackColor = true;
@@ -258,10 +268,10 @@
             // 
             // button5
             // 
-            button5.Location = new System.Drawing.Point(269, 107);
-            button5.Margin = new System.Windows.Forms.Padding(4);
+            button5.Location = new System.Drawing.Point(262, 75);
+            button5.Margin = new System.Windows.Forms.Padding(5);
             button5.Name = "button5";
-            button5.Size = new System.Drawing.Size(133, 30);
+            button5.Size = new System.Drawing.Size(133, 29);
             button5.TabIndex = 16;
             button5.Text = "Uninstall";
             button5.UseVisualStyleBackColor = true;
@@ -270,10 +280,10 @@
             // 
             // button4
             // 
-            button4.Location = new System.Drawing.Point(124, 500);
-            button4.Margin = new System.Windows.Forms.Padding(4);
+            button4.Location = new System.Drawing.Point(118, 474);
+            button4.Margin = new System.Windows.Forms.Padding(5);
             button4.Name = "button4";
-            button4.Size = new System.Drawing.Size(133, 30);
+            button4.Size = new System.Drawing.Size(133, 29);
             button4.TabIndex = 13;
             button4.Text = "Install";
             button4.UseVisualStyleBackColor = true;
@@ -281,10 +291,10 @@
             // 
             // button3
             // 
-            button3.Location = new System.Drawing.Point(123, 363);
-            button3.Margin = new System.Windows.Forms.Padding(4);
+            button3.Location = new System.Drawing.Point(118, 334);
+            button3.Margin = new System.Windows.Forms.Padding(5);
             button3.Name = "button3";
-            button3.Size = new System.Drawing.Size(133, 30);
+            button3.Size = new System.Drawing.Size(133, 29);
             button3.TabIndex = 12;
             button3.Text = "Install";
             button3.UseVisualStyleBackColor = true;
@@ -292,10 +302,10 @@
             // 
             // button2
             // 
-            button2.Location = new System.Drawing.Point(124, 235);
-            button2.Margin = new System.Windows.Forms.Padding(4);
+            button2.Location = new System.Drawing.Point(118, 202);
+            button2.Margin = new System.Windows.Forms.Padding(5);
             button2.Name = "button2";
-            button2.Size = new System.Drawing.Size(133, 30);
+            button2.Size = new System.Drawing.Size(133, 29);
             button2.TabIndex = 11;
             button2.Text = "Install";
             button2.UseVisualStyleBackColor = true;
@@ -303,10 +313,10 @@
             // 
             // button1
             // 
-            button1.Location = new System.Drawing.Point(128, 107);
-            button1.Margin = new System.Windows.Forms.Padding(4);
+            button1.Location = new System.Drawing.Point(118, 75);
+            button1.Margin = new System.Windows.Forms.Padding(5);
             button1.Name = "button1";
-            button1.Size = new System.Drawing.Size(133, 30);
+            button1.Size = new System.Drawing.Size(133, 29);
             button1.TabIndex = 10;
             button1.Text = "Install";
             button1.UseVisualStyleBackColor = true;
@@ -316,8 +326,8 @@
             // 
             label6.AutoSize = true;
             label6.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label6.Location = new System.Drawing.Point(123, 410);
-            label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label6.Location = new System.Drawing.Point(115, 409);
+            label6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label6.Name = "label6";
             label6.Size = new System.Drawing.Size(75, 28);
             label6.TabIndex = 8;
@@ -327,8 +337,8 @@
             // 
             label5.AutoSize = true;
             label5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label5.Location = new System.Drawing.Point(123, 273);
-            label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label5.Location = new System.Drawing.Point(113, 270);
+            label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label5.Name = "label5";
             label5.Size = new System.Drawing.Size(145, 28);
             label5.TabIndex = 7;
@@ -338,8 +348,8 @@
             // 
             label4.AutoSize = true;
             label4.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label4.Location = new System.Drawing.Point(123, 145);
-            label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label4.Location = new System.Drawing.Point(113, 137);
+            label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label4.Name = "label4";
             label4.Size = new System.Drawing.Size(152, 28);
             label4.TabIndex = 6;
@@ -349,8 +359,8 @@
             // 
             label3.AutoSize = true;
             label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label3.Location = new System.Drawing.Point(123, 17);
-            label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label3.Location = new System.Drawing.Point(121, 28);
+            label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label3.Name = "label3";
             label3.Size = new System.Drawing.Size(143, 28);
             label3.TabIndex = 5;
@@ -360,10 +370,10 @@
             // 
             pictureBox4.BackgroundImage = Properties.Resources.image;
             pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            pictureBox4.Location = new System.Drawing.Point(18, 427);
-            pictureBox4.Margin = new System.Windows.Forms.Padding(4);
+            pictureBox4.Location = new System.Drawing.Point(11, 409);
+            pictureBox4.Margin = new System.Windows.Forms.Padding(5);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new System.Drawing.Size(95, 92);
+            pictureBox4.Size = new System.Drawing.Size(95, 94);
             pictureBox4.TabIndex = 3;
             pictureBox4.TabStop = false;
             // 
@@ -371,10 +381,10 @@
             // 
             pictureBox3.BackgroundImage = Properties.Resources.Firefox_logo__2019_svg;
             pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            pictureBox3.Location = new System.Drawing.Point(16, 288);
-            pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            pictureBox3.Location = new System.Drawing.Point(9, 270);
+            pictureBox3.Margin = new System.Windows.Forms.Padding(5);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new System.Drawing.Size(96, 94);
+            pictureBox3.Size = new System.Drawing.Size(95, 94);
             pictureBox3.TabIndex = 2;
             pictureBox3.TabStop = false;
             // 
@@ -382,10 +392,10 @@
             // 
             pictureBox2.BackgroundImage = Properties.Resources.Google_Chrome_icon__February_2022__svg;
             pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            pictureBox2.Location = new System.Drawing.Point(16, 155);
-            pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            pictureBox2.Location = new System.Drawing.Point(9, 137);
+            pictureBox2.Margin = new System.Windows.Forms.Padding(5);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new System.Drawing.Size(95, 93);
+            pictureBox2.Size = new System.Drawing.Size(95, 94);
             pictureBox2.TabIndex = 1;
             pictureBox2.TabStop = false;
             // 
@@ -393,15 +403,19 @@
             // 
             pictureBox1.BackgroundImage = Properties.Resources.Microsoft_Edge_logo__2019_;
             pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            pictureBox1.Location = new System.Drawing.Point(17, 28);
-            pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            pictureBox1.Location = new System.Drawing.Point(10, 10);
+            pictureBox1.Margin = new System.Windows.Forms.Padding(5);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new System.Drawing.Size(95, 93);
+            pictureBox1.Size = new System.Drawing.Size(95, 94);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
             // ChatApps
             // 
+            ChatApps.Controls.Add(label24);
+            ChatApps.Controls.Add(label23);
+            ChatApps.Controls.Add(label22);
+            ChatApps.Controls.Add(label21);
             ChatApps.Controls.Add(button15);
             ChatApps.Controls.Add(button16);
             ChatApps.Controls.Add(label11);
@@ -420,20 +434,60 @@
             ChatApps.Controls.Add(pictureBox6);
             ChatApps.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             ChatApps.Location = new System.Drawing.Point(4, 26);
-            ChatApps.Margin = new System.Windows.Forms.Padding(4);
+            ChatApps.Margin = new System.Windows.Forms.Padding(5);
             ChatApps.Name = "ChatApps";
-            ChatApps.Padding = new System.Windows.Forms.Padding(4);
+            ChatApps.Padding = new System.Windows.Forms.Padding(5);
             ChatApps.Size = new System.Drawing.Size(1272, 779);
             ChatApps.TabIndex = 1;
             ChatApps.Text = "Chat apps";
             ChatApps.UseVisualStyleBackColor = true;
             // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.Location = new System.Drawing.Point(115, 418);
+            label24.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            label24.Name = "label24";
+            label24.Size = new System.Drawing.Size(234, 16);
+            label24.TabIndex = 33;
+            label24.Text = "This program has no description yet";
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Location = new System.Drawing.Point(114, 290);
+            label23.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            label23.Name = "label23";
+            label23.Size = new System.Drawing.Size(234, 16);
+            label23.TabIndex = 32;
+            label23.Text = "This program has no description yet";
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.Location = new System.Drawing.Point(115, 162);
+            label22.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            label22.Name = "label22";
+            label22.Size = new System.Drawing.Size(234, 16);
+            label22.TabIndex = 31;
+            label22.Text = "This program has no description yet";
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Location = new System.Drawing.Point(114, 34);
+            label21.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            label21.Name = "label21";
+            label21.Size = new System.Drawing.Size(234, 16);
+            label21.TabIndex = 30;
+            label21.Text = "This program has no description yet";
+            // 
             // button15
             // 
-            button15.Location = new System.Drawing.Point(309, 515);
-            button15.Margin = new System.Windows.Forms.Padding(4);
+            button15.Location = new System.Drawing.Point(257, 459);
+            button15.Margin = new System.Windows.Forms.Padding(5);
             button15.Name = "button15";
-            button15.Size = new System.Drawing.Size(133, 30);
+            button15.Size = new System.Drawing.Size(133, 29);
             button15.TabIndex = 29;
             button15.Text = "Uninstall";
             button15.UseVisualStyleBackColor = true;
@@ -442,10 +496,10 @@
             // 
             // button16
             // 
-            button16.Location = new System.Drawing.Point(168, 515);
-            button16.Margin = new System.Windows.Forms.Padding(4);
+            button16.Location = new System.Drawing.Point(115, 459);
+            button16.Margin = new System.Windows.Forms.Padding(5);
             button16.Name = "button16";
-            button16.Size = new System.Drawing.Size(133, 30);
+            button16.Size = new System.Drawing.Size(133, 29);
             button16.TabIndex = 28;
             button16.Text = "Install";
             button16.UseVisualStyleBackColor = true;
@@ -455,8 +509,8 @@
             // 
             label11.AutoSize = true;
             label11.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label11.Location = new System.Drawing.Point(171, 425);
-            label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label11.Location = new System.Drawing.Point(115, 394);
+            label11.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label11.Name = "label11";
             label11.Size = new System.Drawing.Size(85, 28);
             label11.TabIndex = 27;
@@ -464,10 +518,10 @@
             // 
             // button13
             // 
-            button13.Location = new System.Drawing.Point(309, 387);
-            button13.Margin = new System.Windows.Forms.Padding(4);
+            button13.Location = new System.Drawing.Point(257, 331);
+            button13.Margin = new System.Windows.Forms.Padding(5);
             button13.Name = "button13";
-            button13.Size = new System.Drawing.Size(133, 30);
+            button13.Size = new System.Drawing.Size(133, 29);
             button13.TabIndex = 25;
             button13.Text = "Uninstall";
             button13.UseVisualStyleBackColor = true;
@@ -476,10 +530,10 @@
             // 
             // button14
             // 
-            button14.Location = new System.Drawing.Point(168, 387);
-            button14.Margin = new System.Windows.Forms.Padding(4);
+            button14.Location = new System.Drawing.Point(115, 331);
+            button14.Margin = new System.Windows.Forms.Padding(5);
             button14.Name = "button14";
-            button14.Size = new System.Drawing.Size(133, 30);
+            button14.Size = new System.Drawing.Size(133, 29);
             button14.TabIndex = 24;
             button14.Text = "Install";
             button14.UseVisualStyleBackColor = true;
@@ -489,8 +543,8 @@
             // 
             label10.AutoSize = true;
             label10.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label10.Location = new System.Drawing.Point(175, 297);
-            label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label10.Location = new System.Drawing.Point(114, 266);
+            label10.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label10.Name = "label10";
             label10.Size = new System.Drawing.Size(68, 28);
             label10.TabIndex = 23;
@@ -498,10 +552,10 @@
             // 
             // button11
             // 
-            button11.Location = new System.Drawing.Point(309, 259);
-            button11.Margin = new System.Windows.Forms.Padding(4);
+            button11.Location = new System.Drawing.Point(257, 202);
+            button11.Margin = new System.Windows.Forms.Padding(5);
             button11.Name = "button11";
-            button11.Size = new System.Drawing.Size(133, 30);
+            button11.Size = new System.Drawing.Size(133, 29);
             button11.TabIndex = 21;
             button11.Text = "Uninstall";
             button11.UseVisualStyleBackColor = true;
@@ -510,10 +564,10 @@
             // 
             // button12
             // 
-            button12.Location = new System.Drawing.Point(168, 259);
-            button12.Margin = new System.Windows.Forms.Padding(4);
+            button12.Location = new System.Drawing.Point(115, 202);
+            button12.Margin = new System.Windows.Forms.Padding(5);
             button12.Name = "button12";
-            button12.Size = new System.Drawing.Size(133, 30);
+            button12.Size = new System.Drawing.Size(133, 29);
             button12.TabIndex = 20;
             button12.Text = "Install";
             button12.UseVisualStyleBackColor = true;
@@ -523,8 +577,8 @@
             // 
             label7.AutoSize = true;
             label7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label7.Location = new System.Drawing.Point(175, 169);
-            label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label7.Location = new System.Drawing.Point(114, 138);
+            label7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label7.Name = "label7";
             label7.Size = new System.Drawing.Size(97, 28);
             label7.TabIndex = 19;
@@ -532,10 +586,10 @@
             // 
             // button10
             // 
-            button10.Location = new System.Drawing.Point(309, 131);
-            button10.Margin = new System.Windows.Forms.Padding(4);
+            button10.Location = new System.Drawing.Point(257, 74);
+            button10.Margin = new System.Windows.Forms.Padding(5);
             button10.Name = "button10";
-            button10.Size = new System.Drawing.Size(133, 30);
+            button10.Size = new System.Drawing.Size(133, 29);
             button10.TabIndex = 17;
             button10.Text = "Uninstall";
             button10.UseVisualStyleBackColor = true;
@@ -544,10 +598,10 @@
             // 
             // button6
             // 
-            button6.Location = new System.Drawing.Point(168, 131);
-            button6.Margin = new System.Windows.Forms.Padding(4);
+            button6.Location = new System.Drawing.Point(115, 74);
+            button6.Margin = new System.Windows.Forms.Padding(5);
             button6.Name = "button6";
-            button6.Size = new System.Drawing.Size(133, 30);
+            button6.Size = new System.Drawing.Size(133, 29);
             button6.TabIndex = 13;
             button6.Text = "Install";
             button6.UseVisualStyleBackColor = true;
@@ -557,8 +611,8 @@
             // 
             label8.AutoSize = true;
             label8.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label8.Location = new System.Drawing.Point(175, 41);
-            label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label8.Location = new System.Drawing.Point(114, 10);
+            label8.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label8.Name = "label8";
             label8.Size = new System.Drawing.Size(80, 28);
             label8.TabIndex = 12;
@@ -568,10 +622,10 @@
             // 
             pictureBox8.BackgroundImage = Properties.Resources.element;
             pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            pictureBox8.Location = new System.Drawing.Point(25, 425);
-            pictureBox8.Margin = new System.Windows.Forms.Padding(4);
+            pictureBox8.Location = new System.Drawing.Point(10, 394);
+            pictureBox8.Margin = new System.Windows.Forms.Padding(5);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new System.Drawing.Size(133, 120);
+            pictureBox8.Size = new System.Drawing.Size(95, 94);
             pictureBox8.TabIndex = 26;
             pictureBox8.TabStop = false;
             // 
@@ -579,10 +633,10 @@
             // 
             pictureBox7.BackgroundImage = Properties.Resources.revoltlogo;
             pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            pictureBox7.Location = new System.Drawing.Point(25, 297);
-            pictureBox7.Margin = new System.Windows.Forms.Padding(4);
+            pictureBox7.Location = new System.Drawing.Point(10, 266);
+            pictureBox7.Margin = new System.Windows.Forms.Padding(5);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new System.Drawing.Size(133, 120);
+            pictureBox7.Size = new System.Drawing.Size(95, 94);
             pictureBox7.TabIndex = 22;
             pictureBox7.TabStop = false;
             // 
@@ -590,10 +644,10 @@
             // 
             pictureBox5.BackgroundImage = Properties.Resources.Telegram_2019_Logo_svg;
             pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            pictureBox5.Location = new System.Drawing.Point(25, 169);
-            pictureBox5.Margin = new System.Windows.Forms.Padding(4);
+            pictureBox5.Location = new System.Drawing.Point(10, 138);
+            pictureBox5.Margin = new System.Windows.Forms.Padding(5);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new System.Drawing.Size(133, 120);
+            pictureBox5.Size = new System.Drawing.Size(95, 94);
             pictureBox5.TabIndex = 18;
             pictureBox5.TabStop = false;
             // 
@@ -601,15 +655,19 @@
             // 
             pictureBox6.BackgroundImage = Properties.Resources._636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB;
             pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            pictureBox6.Location = new System.Drawing.Point(25, 41);
-            pictureBox6.Margin = new System.Windows.Forms.Padding(4);
+            pictureBox6.Location = new System.Drawing.Point(10, 10);
+            pictureBox6.Margin = new System.Windows.Forms.Padding(5);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new System.Drawing.Size(133, 120);
+            pictureBox6.Size = new System.Drawing.Size(95, 94);
             pictureBox6.TabIndex = 11;
             pictureBox6.TabStop = false;
             // 
             // Gaming
             // 
+            Gaming.Controls.Add(label28);
+            Gaming.Controls.Add(label27);
+            Gaming.Controls.Add(label26);
+            Gaming.Controls.Add(label25);
             Gaming.Controls.Add(button17);
             Gaming.Controls.Add(button18);
             Gaming.Controls.Add(label12);
@@ -627,32 +685,72 @@
             Gaming.Controls.Add(label15);
             Gaming.Controls.Add(pictureBox12);
             Gaming.Location = new System.Drawing.Point(4, 26);
-            Gaming.Margin = new System.Windows.Forms.Padding(4);
+            Gaming.Margin = new System.Windows.Forms.Padding(5);
             Gaming.Name = "Gaming";
-            Gaming.Padding = new System.Windows.Forms.Padding(4);
+            Gaming.Padding = new System.Windows.Forms.Padding(5);
             Gaming.Size = new System.Drawing.Size(1272, 779);
             Gaming.TabIndex = 4;
             Gaming.Text = "Gaming";
             Gaming.UseVisualStyleBackColor = true;
             // 
+            // label28
+            // 
+            label28.AutoSize = true;
+            label28.Location = new System.Drawing.Point(114, 377);
+            label28.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            label28.Name = "label28";
+            label28.Size = new System.Drawing.Size(241, 17);
+            label28.TabIndex = 49;
+            label28.Text = "This program has no description yet";
+            // 
+            // label27
+            // 
+            label27.AutoSize = true;
+            label27.Location = new System.Drawing.Point(114, 267);
+            label27.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            label27.Name = "label27";
+            label27.Size = new System.Drawing.Size(241, 17);
+            label27.TabIndex = 48;
+            label27.Text = "This program has no description yet";
+            // 
+            // label26
+            // 
+            label26.AutoSize = true;
+            label26.Location = new System.Drawing.Point(114, 149);
+            label26.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            label26.Name = "label26";
+            label26.Size = new System.Drawing.Size(241, 17);
+            label26.TabIndex = 47;
+            label26.Text = "This program has no description yet";
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Location = new System.Drawing.Point(114, 33);
+            label25.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            label25.Name = "label25";
+            label25.Size = new System.Drawing.Size(241, 17);
+            label25.TabIndex = 46;
+            label25.Text = "This program has no description yet";
+            // 
             // button17
             // 
-            button17.Location = new System.Drawing.Point(1035, 254);
-            button17.Margin = new System.Windows.Forms.Padding(4);
+            button17.Location = new System.Drawing.Point(256, 418);
+            button17.Margin = new System.Windows.Forms.Padding(5);
             button17.Name = "button17";
-            button17.Size = new System.Drawing.Size(133, 30);
+            button17.Size = new System.Drawing.Size(133, 29);
             button17.TabIndex = 45;
-            button17.Text = " ";
+            button17.Text = "Uninstall";
             button17.UseVisualStyleBackColor = true;
             button17.Visible = false;
             button17.Click += button17_Click;
             // 
             // button18
             // 
-            button18.Location = new System.Drawing.Point(1035, 216);
-            button18.Margin = new System.Windows.Forms.Padding(4);
+            button18.Location = new System.Drawing.Point(114, 418);
+            button18.Margin = new System.Windows.Forms.Padding(5);
             button18.Name = "button18";
-            button18.Size = new System.Drawing.Size(133, 30);
+            button18.Size = new System.Drawing.Size(133, 29);
             button18.TabIndex = 44;
             button18.Text = "Install";
             button18.UseVisualStyleBackColor = true;
@@ -661,11 +759,11 @@
             // label12
             // 
             label12.AutoSize = true;
-            label12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            label12.Location = new System.Drawing.Point(1029, 173);
-            label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label12.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            label12.Location = new System.Drawing.Point(114, 353);
+            label12.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label12.Name = "label12";
-            label12.Size = new System.Drawing.Size(146, 23);
+            label12.Size = new System.Drawing.Size(153, 28);
             label12.TabIndex = 43;
             label12.Text = "Prism Launcher";
             // 
@@ -673,19 +771,19 @@
             // 
             pictureBox9.BackgroundImage = Properties.Resources.org_prismlauncher_PrismLauncher;
             pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            pictureBox9.Location = new System.Drawing.Point(1035, 48);
-            pictureBox9.Margin = new System.Windows.Forms.Padding(4);
+            pictureBox9.Location = new System.Drawing.Point(10, 353);
+            pictureBox9.Margin = new System.Windows.Forms.Padding(5);
             pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new System.Drawing.Size(133, 120);
+            pictureBox9.Size = new System.Drawing.Size(95, 94);
             pictureBox9.TabIndex = 42;
             pictureBox9.TabStop = false;
             // 
             // button19
             // 
-            button19.Location = new System.Drawing.Point(768, 254);
-            button19.Margin = new System.Windows.Forms.Padding(4);
+            button19.Location = new System.Drawing.Point(256, 308);
+            button19.Margin = new System.Windows.Forms.Padding(5);
             button19.Name = "button19";
-            button19.Size = new System.Drawing.Size(133, 30);
+            button19.Size = new System.Drawing.Size(133, 29);
             button19.TabIndex = 41;
             button19.Text = "Uninstall";
             button19.UseVisualStyleBackColor = true;
@@ -694,10 +792,10 @@
             // 
             // button20
             // 
-            button20.Location = new System.Drawing.Point(768, 216);
-            button20.Margin = new System.Windows.Forms.Padding(4);
+            button20.Location = new System.Drawing.Point(114, 308);
+            button20.Margin = new System.Windows.Forms.Padding(5);
             button20.Name = "button20";
-            button20.Size = new System.Drawing.Size(133, 30);
+            button20.Size = new System.Drawing.Size(133, 29);
             button20.TabIndex = 40;
             button20.Text = "Install";
             button20.UseVisualStyleBackColor = true;
@@ -706,11 +804,11 @@
             // label13
             // 
             label13.AutoSize = true;
-            label13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            label13.Location = new System.Drawing.Point(735, 173);
-            label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label13.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            label13.Location = new System.Drawing.Point(114, 243);
+            label13.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label13.Name = "label13";
-            label13.Size = new System.Drawing.Size(204, 23);
+            label13.Size = new System.Drawing.Size(203, 28);
             label13.TabIndex = 39;
             label13.Text = "Epic Games Launcher";
             // 
@@ -718,19 +816,19 @@
             // 
             pictureBox10.BackgroundImage = Properties.Resources.Epic_games_store_logo;
             pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            pictureBox10.Location = new System.Drawing.Point(768, 48);
-            pictureBox10.Margin = new System.Windows.Forms.Padding(4);
+            pictureBox10.Location = new System.Drawing.Point(10, 243);
+            pictureBox10.Margin = new System.Windows.Forms.Padding(5);
             pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new System.Drawing.Size(133, 120);
+            pictureBox10.Size = new System.Drawing.Size(95, 94);
             pictureBox10.TabIndex = 38;
             pictureBox10.TabStop = false;
             // 
             // button21
             // 
-            button21.Location = new System.Drawing.Point(409, 254);
-            button21.Margin = new System.Windows.Forms.Padding(4);
+            button21.Location = new System.Drawing.Point(256, 190);
+            button21.Margin = new System.Windows.Forms.Padding(5);
             button21.Name = "button21";
-            button21.Size = new System.Drawing.Size(133, 30);
+            button21.Size = new System.Drawing.Size(133, 29);
             button21.TabIndex = 37;
             button21.Text = "Uninstall";
             button21.UseVisualStyleBackColor = true;
@@ -739,10 +837,10 @@
             // 
             // button22
             // 
-            button22.Location = new System.Drawing.Point(409, 216);
-            button22.Margin = new System.Windows.Forms.Padding(4);
+            button22.Location = new System.Drawing.Point(114, 190);
+            button22.Margin = new System.Windows.Forms.Padding(5);
             button22.Name = "button22";
-            button22.Size = new System.Drawing.Size(133, 30);
+            button22.Size = new System.Drawing.Size(133, 29);
             button22.TabIndex = 36;
             button22.Text = "Install";
             button22.UseVisualStyleBackColor = true;
@@ -751,11 +849,11 @@
             // label14
             // 
             label14.AutoSize = true;
-            label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            label14.Location = new System.Drawing.Point(417, 173);
-            label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label14.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            label14.Location = new System.Drawing.Point(114, 125);
+            label14.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label14.Name = "label14";
-            label14.Size = new System.Drawing.Size(125, 23);
+            label14.Size = new System.Drawing.Size(122, 28);
             label14.TabIndex = 35;
             label14.Text = "GOG Galaxy";
             // 
@@ -763,19 +861,19 @@
             // 
             pictureBox11.BackgroundImage = Properties.Resources.android_icon_192x192;
             pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            pictureBox11.Location = new System.Drawing.Point(409, 48);
-            pictureBox11.Margin = new System.Windows.Forms.Padding(4);
+            pictureBox11.Location = new System.Drawing.Point(10, 125);
+            pictureBox11.Margin = new System.Windows.Forms.Padding(5);
             pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new System.Drawing.Size(133, 120);
+            pictureBox11.Size = new System.Drawing.Size(95, 94);
             pictureBox11.TabIndex = 34;
             pictureBox11.TabStop = false;
             // 
             // button23
             // 
-            button23.Location = new System.Drawing.Point(127, 254);
-            button23.Margin = new System.Windows.Forms.Padding(4);
+            button23.Location = new System.Drawing.Point(256, 74);
+            button23.Margin = new System.Windows.Forms.Padding(5);
             button23.Name = "button23";
-            button23.Size = new System.Drawing.Size(133, 30);
+            button23.Size = new System.Drawing.Size(133, 29);
             button23.TabIndex = 33;
             button23.Text = "Uninstall";
             button23.UseVisualStyleBackColor = true;
@@ -784,10 +882,10 @@
             // 
             // button24
             // 
-            button24.Location = new System.Drawing.Point(127, 216);
-            button24.Margin = new System.Windows.Forms.Padding(4);
+            button24.Location = new System.Drawing.Point(114, 74);
+            button24.Margin = new System.Windows.Forms.Padding(5);
             button24.Name = "button24";
-            button24.Size = new System.Drawing.Size(133, 30);
+            button24.Size = new System.Drawing.Size(133, 29);
             button24.TabIndex = 32;
             button24.Text = "Install";
             button24.UseVisualStyleBackColor = true;
@@ -796,11 +894,11 @@
             // label15
             // 
             label15.AutoSize = true;
-            label15.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            label15.Location = new System.Drawing.Point(157, 173);
-            label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label15.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            label15.Location = new System.Drawing.Point(114, 10);
+            label15.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label15.Name = "label15";
-            label15.Size = new System.Drawing.Size(67, 23);
+            label15.Size = new System.Drawing.Size(68, 28);
             label15.TabIndex = 31;
             label15.Text = "Steam";
             // 
@@ -808,19 +906,19 @@
             // 
             pictureBox12.BackgroundImage = Properties.Resources.Steam_icon_logo1;
             pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            pictureBox12.Location = new System.Drawing.Point(127, 48);
-            pictureBox12.Margin = new System.Windows.Forms.Padding(4);
+            pictureBox12.Location = new System.Drawing.Point(10, 10);
+            pictureBox12.Margin = new System.Windows.Forms.Padding(5);
             pictureBox12.Name = "pictureBox12";
-            pictureBox12.Size = new System.Drawing.Size(133, 120);
+            pictureBox12.Size = new System.Drawing.Size(95, 94);
             pictureBox12.TabIndex = 30;
             pictureBox12.TabStop = false;
             // 
             // Utilities
             // 
             Utilities.Location = new System.Drawing.Point(4, 26);
-            Utilities.Margin = new System.Windows.Forms.Padding(4);
+            Utilities.Margin = new System.Windows.Forms.Padding(5);
             Utilities.Name = "Utilities";
-            Utilities.Padding = new System.Windows.Forms.Padding(4);
+            Utilities.Padding = new System.Windows.Forms.Padding(5);
             Utilities.Size = new System.Drawing.Size(1272, 779);
             Utilities.TabIndex = 2;
             Utilities.Text = "Utilities";
@@ -832,9 +930,9 @@
             Settings.Controls.Add(checkBox2);
             Settings.Controls.Add(checkBox1);
             Settings.Location = new System.Drawing.Point(4, 26);
-            Settings.Margin = new System.Windows.Forms.Padding(4);
+            Settings.Margin = new System.Windows.Forms.Padding(5);
             Settings.Name = "Settings";
-            Settings.Padding = new System.Windows.Forms.Padding(4);
+            Settings.Padding = new System.Windows.Forms.Padding(5);
             Settings.Size = new System.Drawing.Size(1272, 779);
             Settings.TabIndex = 3;
             Settings.Text = "Settings";
@@ -844,8 +942,8 @@
             // 
             label9.AutoSize = true;
             label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label9.Location = new System.Drawing.Point(444, 0);
-            label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label9.Location = new System.Drawing.Point(443, 0);
+            label9.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label9.Name = "label9";
             label9.Size = new System.Drawing.Size(416, 24);
             label9.TabIndex = 4;
@@ -857,7 +955,7 @@
             checkBox2.Checked = true;
             checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
             checkBox2.Location = new System.Drawing.Point(43, 77);
-            checkBox2.Margin = new System.Windows.Forms.Padding(4);
+            checkBox2.Margin = new System.Windows.Forms.Padding(5);
             checkBox2.Name = "checkBox2";
             checkBox2.Size = new System.Drawing.Size(151, 21);
             checkBox2.TabIndex = 1;
@@ -868,8 +966,8 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new System.Drawing.Point(43, 47);
-            checkBox1.Margin = new System.Windows.Forms.Padding(4);
+            checkBox1.Location = new System.Drawing.Point(43, 46);
+            checkBox1.Margin = new System.Windows.Forms.Padding(5);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new System.Drawing.Size(160, 21);
             checkBox1.TabIndex = 0;
@@ -879,10 +977,10 @@
             // 
             // progressBar1
             // 
-            progressBar1.Location = new System.Drawing.Point(144, 897);
-            progressBar1.Margin = new System.Windows.Forms.Padding(4);
+            progressBar1.Location = new System.Drawing.Point(144, 896);
+            progressBar1.Margin = new System.Windows.Forms.Padding(5);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new System.Drawing.Size(965, 30);
+            progressBar1.Size = new System.Drawing.Size(965, 29);
             progressBar1.TabIndex = 15;
             // 
             // label16
@@ -890,11 +988,22 @@
             label16.AutoSize = true;
             label16.Font = new System.Drawing.Font("Segoe UI Semilight", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             label16.Location = new System.Drawing.Point(1139, 16);
-            label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label16.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label16.Name = "label16";
             label16.Size = new System.Drawing.Size(167, 25);
             label16.TabIndex = 16;
             label16.Text = "Version v1.0-alpha1";
+            // 
+            // label29
+            // 
+            label29.AutoSize = true;
+            label29.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            label29.Location = new System.Drawing.Point(113, 5);
+            label29.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            label29.Name = "label29";
+            label29.Size = new System.Drawing.Size(143, 28);
+            label29.TabIndex = 24;
+            label29.Text = "Microsoft Edge";
             // 
             // Form1
             // 
@@ -907,7 +1016,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(progressBar1);
-            Margin = new System.Windows.Forms.Padding(4);
+            Margin = new System.Windows.Forms.Padding(5);
             Name = "Form1";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "BetterAppInstaller";
@@ -1004,6 +1113,15 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label29;
     }
 }
 
