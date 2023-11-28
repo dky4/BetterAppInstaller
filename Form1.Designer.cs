@@ -116,18 +116,18 @@
             // 
             label1.AutoSize = true;
             label1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label1.Location = new System.Drawing.Point(16, 12);
+            label1.Location = new System.Drawing.Point(456, 8);
             label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(288, 32);
+            label1.Size = new System.Drawing.Size(352, 32);
             label1.TabIndex = 0;
-            label1.Text = "Welcome to AppInstaller!";
+            label1.Text = "Welcome to BetterAppInstaller!";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new System.Drawing.Font("Segoe UI Semilight", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            label2.Location = new System.Drawing.Point(17, 44);
+            label2.Location = new System.Drawing.Point(533, 40);
             label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label2.Name = "label2";
             label2.Size = new System.Drawing.Size(190, 25);
@@ -183,37 +183,37 @@
             // label20
             // 
             label20.AutoSize = true;
-            label20.Location = new System.Drawing.Point(168, 462);
+            label20.Location = new System.Drawing.Point(124, 438);
             label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label20.Name = "label20";
-            label20.Size = new System.Drawing.Size(91, 16);
+            label20.Size = new System.Drawing.Size(461, 16);
             label20.TabIndex = 23;
-            label20.Text = "(placeholder)";
+            label20.Text = "Vivaldi is a Chromium-based browser developed by Vivaldi Technologies";
             // 
             // label19
             // 
             label19.AutoSize = true;
-            label19.Location = new System.Drawing.Point(168, 324);
+            label19.Location = new System.Drawing.Point(124, 300);
             label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label19.Name = "label19";
-            label19.Size = new System.Drawing.Size(91, 16);
+            label19.Size = new System.Drawing.Size(404, 16);
             label19.TabIndex = 22;
-            label19.Text = "(placeholder)";
+            label19.Text = "Mozilla Firefox is a Gecko-based browser developed by Mozilla.";
             // 
             // label18
             // 
             label18.AutoSize = true;
-            label18.Location = new System.Drawing.Point(168, 196);
+            label18.Location = new System.Drawing.Point(124, 172);
             label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label18.Name = "label18";
-            label18.Size = new System.Drawing.Size(91, 16);
+            label18.Size = new System.Drawing.Size(442, 16);
             label18.TabIndex = 21;
-            label18.Text = "(placeholder)";
+            label18.Text = "Google Chrome is a Chromium-based browser developed by Google.";
             // 
             // label17
             // 
             label17.AutoSize = true;
-            label17.Location = new System.Drawing.Point(168, 68);
+            label17.Location = new System.Drawing.Point(124, 44);
             label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label17.Name = "label17";
             label17.Size = new System.Drawing.Size(447, 32);
@@ -222,7 +222,7 @@
             // 
             // button9
             // 
-            button9.Location = new System.Drawing.Point(309, 524);
+            button9.Location = new System.Drawing.Point(265, 500);
             button9.Margin = new System.Windows.Forms.Padding(4);
             button9.Name = "button9";
             button9.Size = new System.Drawing.Size(133, 30);
@@ -234,7 +234,7 @@
             // 
             // button8
             // 
-            button8.Location = new System.Drawing.Point(313, 387);
+            button8.Location = new System.Drawing.Point(269, 363);
             button8.Margin = new System.Windows.Forms.Padding(4);
             button8.Name = "button8";
             button8.Size = new System.Drawing.Size(133, 30);
@@ -246,7 +246,7 @@
             // 
             // button7
             // 
-            button7.Location = new System.Drawing.Point(313, 259);
+            button7.Location = new System.Drawing.Point(269, 235);
             button7.Margin = new System.Windows.Forms.Padding(4);
             button7.Name = "button7";
             button7.Size = new System.Drawing.Size(133, 30);
@@ -258,7 +258,7 @@
             // 
             // button5
             // 
-            button5.Location = new System.Drawing.Point(313, 131);
+            button5.Location = new System.Drawing.Point(269, 107);
             button5.Margin = new System.Windows.Forms.Padding(4);
             button5.Name = "button5";
             button5.Size = new System.Drawing.Size(133, 30);
@@ -270,7 +270,7 @@
             // 
             // button4
             // 
-            button4.Location = new System.Drawing.Point(168, 524);
+            button4.Location = new System.Drawing.Point(124, 500);
             button4.Margin = new System.Windows.Forms.Padding(4);
             button4.Name = "button4";
             button4.Size = new System.Drawing.Size(133, 30);
@@ -281,7 +281,7 @@
             // 
             // button3
             // 
-            button3.Location = new System.Drawing.Point(167, 387);
+            button3.Location = new System.Drawing.Point(123, 363);
             button3.Margin = new System.Windows.Forms.Padding(4);
             button3.Name = "button3";
             button3.Size = new System.Drawing.Size(133, 30);
@@ -292,7 +292,7 @@
             // 
             // button2
             // 
-            button2.Location = new System.Drawing.Point(168, 259);
+            button2.Location = new System.Drawing.Point(124, 235);
             button2.Margin = new System.Windows.Forms.Padding(4);
             button2.Name = "button2";
             button2.Size = new System.Drawing.Size(133, 30);
@@ -303,7 +303,7 @@
             // 
             // button1
             // 
-            button1.Location = new System.Drawing.Point(172, 131);
+            button1.Location = new System.Drawing.Point(128, 107);
             button1.Margin = new System.Windows.Forms.Padding(4);
             button1.Name = "button1";
             button1.Size = new System.Drawing.Size(133, 30);
@@ -316,7 +316,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label6.Location = new System.Drawing.Point(167, 434);
+            label6.Location = new System.Drawing.Point(123, 410);
             label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label6.Name = "label6";
             label6.Size = new System.Drawing.Size(75, 28);
@@ -327,7 +327,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label5.Location = new System.Drawing.Point(167, 297);
+            label5.Location = new System.Drawing.Point(123, 273);
             label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label5.Name = "label5";
             label5.Size = new System.Drawing.Size(145, 28);
@@ -338,7 +338,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label4.Location = new System.Drawing.Point(167, 169);
+            label4.Location = new System.Drawing.Point(123, 145);
             label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label4.Name = "label4";
             label4.Size = new System.Drawing.Size(152, 28);
@@ -349,7 +349,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label3.Location = new System.Drawing.Point(167, 41);
+            label3.Location = new System.Drawing.Point(123, 17);
             label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label3.Name = "label3";
             label3.Size = new System.Drawing.Size(143, 28);
@@ -360,7 +360,7 @@
             // 
             pictureBox4.BackgroundImage = Properties.Resources.image;
             pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            pictureBox4.Location = new System.Drawing.Point(62, 451);
+            pictureBox4.Location = new System.Drawing.Point(18, 427);
             pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new System.Drawing.Size(95, 92);
@@ -371,7 +371,7 @@
             // 
             pictureBox3.BackgroundImage = Properties.Resources.Firefox_logo__2019_svg;
             pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            pictureBox3.Location = new System.Drawing.Point(60, 312);
+            pictureBox3.Location = new System.Drawing.Point(16, 288);
             pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new System.Drawing.Size(96, 94);
@@ -382,7 +382,7 @@
             // 
             pictureBox2.BackgroundImage = Properties.Resources.Google_Chrome_icon__February_2022__svg;
             pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            pictureBox2.Location = new System.Drawing.Point(60, 179);
+            pictureBox2.Location = new System.Drawing.Point(16, 155);
             pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new System.Drawing.Size(95, 93);
@@ -393,7 +393,7 @@
             // 
             pictureBox1.BackgroundImage = Properties.Resources.Microsoft_Edge_logo__2019_;
             pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            pictureBox1.Location = new System.Drawing.Point(61, 52);
+            pictureBox1.Location = new System.Drawing.Point(17, 28);
             pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new System.Drawing.Size(95, 93);
@@ -889,12 +889,12 @@
             // 
             label16.AutoSize = true;
             label16.Font = new System.Drawing.Font("Segoe UI Semilight", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            label16.Location = new System.Drawing.Point(1176, 18);
+            label16.Location = new System.Drawing.Point(1139, 16);
             label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label16.Name = "label16";
-            label16.Size = new System.Drawing.Size(110, 25);
+            label16.Size = new System.Drawing.Size(167, 25);
             label16.TabIndex = 16;
-            label16.Text = "Version v2.0";
+            label16.Text = "Version v1.0-alpha1";
             // 
             // Form1
             // 
@@ -910,7 +910,7 @@
             Margin = new System.Windows.Forms.Padding(4);
             Name = "Form1";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            Text = "AppInstaller";
+            Text = "BetterAppInstaller";
             Load += Form1_Load;
             TabControl.ResumeLayout(false);
             Browsers.ResumeLayout(false);
