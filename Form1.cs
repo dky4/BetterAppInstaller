@@ -153,13 +153,13 @@ namespace AppInstaller
 
             }
 
-            if (checkBox2.Checked)
-            {
-                if (checkBox2.Checked == true)
-                {
+            //if (checkBox2.Checked)
+            //{
+                //if (checkBox2.Checked == true)
+                //{
                     AutoUpdater.Start("https://raw.githubusercontent.com/RocketLauncher21/website/main/autoupdate.xml");
-                }
-            }
+                //}
+            //}
         }
 
 
