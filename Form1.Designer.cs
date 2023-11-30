@@ -32,6 +32,7 @@
             label2 = new System.Windows.Forms.Label();
             TabControl = new System.Windows.Forms.TabControl();
             Browsers = new System.Windows.Forms.TabPage();
+            label29 = new System.Windows.Forms.Label();
             label20 = new System.Windows.Forms.Label();
             label19 = new System.Windows.Forms.Label();
             label18 = new System.Windows.Forms.Label();
@@ -101,7 +102,6 @@
             checkBox1 = new System.Windows.Forms.CheckBox();
             progressBar1 = new System.Windows.Forms.ProgressBar();
             label16 = new System.Windows.Forms.Label();
-            label29 = new System.Windows.Forms.Label();
             TabControl.SuspendLayout();
             Browsers.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -189,6 +189,17 @@
             Browsers.TabIndex = 0;
             Browsers.Text = "Browsers";
             Browsers.UseVisualStyleBackColor = true;
+            // 
+            // label29
+            // 
+            label29.AutoSize = true;
+            label29.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            label29.Location = new System.Drawing.Point(113, 5);
+            label29.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            label29.Name = "label29";
+            label29.Size = new System.Drawing.Size(143, 28);
+            label29.TabIndex = 24;
+            label29.Text = "Microsoft Edge";
             // 
             // label20
             // 
@@ -942,7 +953,7 @@
             // 
             label9.AutoSize = true;
             label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label9.Location = new System.Drawing.Point(443, 0);
+            label9.Location = new System.Drawing.Point(410, 0);
             label9.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label9.Name = "label9";
             label9.Size = new System.Drawing.Size(416, 24);
@@ -993,17 +1004,6 @@
             label16.Size = new System.Drawing.Size(167, 25);
             label16.TabIndex = 16;
             label16.Text = "Version v1.0-alpha1";
-            // 
-            // label29
-            // 
-            label29.AutoSize = true;
-            label29.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label29.Location = new System.Drawing.Point(113, 5);
-            label29.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            label29.Name = "label29";
-            label29.Size = new System.Drawing.Size(143, 28);
-            label29.TabIndex = 24;
-            label29.Text = "Microsoft Edge";
             // 
             // Form1
             // 
