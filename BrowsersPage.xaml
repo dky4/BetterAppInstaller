@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="BetterAppInstaller.BrowsersPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BetterAppInstaller"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <ScrollViewer HorizontalScrollBarVisibility="Auto">
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" ColumnSpacing="30">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Edge -->
+            <StackPanel Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+                <Image Source="/Assets/Edge.png" Width="80" Height="80"/>
+                <TextBlock Text="Edge" FontSize="16" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,10,0,5"/>
+                <Button x:Name="bnEdge" Content="Install" Width="80" Height="30" HorizontalAlignment="Center" Click="InstallButton_ClickEdge"/>
+                <ProgressBar x:Name="pbEdge" Width="90" IsIndeterminate="True" ShowPaused="False" ShowError="False" Visibility="Collapsed" Margin="0,20,0,5"/>
+            </StackPanel>
+
+            <!-- Chrome -->
+            <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+                <Image Source="/Assets/Chrome.png" Width="80" Height="80"/>
+                <TextBlock Text="Chrome" FontSize="16" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,10,0,5"/>
+                <Button x:Name="bnChrome" Content="Install" Width="80" Height="30" HorizontalAlignment="Center" Click="InstallButton_ClickChrome"/>
+                <ProgressBar x:Name="pbChrome" Width="90" IsIndeterminate="True" ShowPaused="False" ShowError="False" Visibility="Collapsed" Margin="0,20,0,5"/>
+            </StackPanel>
+
+            <!-- Firefox -->
+            <StackPanel Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+                <Image Source="/Assets/Firefox.png" Width="80" Height="80"/>
+                <TextBlock Text="Firefox" FontSize="16" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,10,0,5"/>
+                <Button x:Name="bnFirefox" Content="Install" Width="80" Height="30" HorizontalAlignment="Center" Click="InstallButton_ClickFirefox"/>
+                <ProgressBar x:Name="pbFirefox" Width="90" IsIndeterminate="True" ShowPaused="False" ShowError="False" Visibility="Collapsed" Margin="0,20,0,5"/>
+            </StackPanel>
+
+            <!-- Vivaldi -->
+            <StackPanel Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+                <Image Source="/Assets/Vivaldi.png" Width="80" Height="80"/>
+                <TextBlock Text="Vivaldi" FontSize="16" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,10,0,5"/>
+                <Button x:Name="bnVivaldi" Content="Install" Width="80" Height="30" HorizontalAlignment="Center" Click="InstallButton_ClickVivaldi"/>
+                <ProgressBar x:Name="pbVivaldi" Width="90" IsIndeterminate="True" ShowPaused="False" ShowError="False" Visibility="Collapsed" Margin="0,20,0,5"/>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Page>

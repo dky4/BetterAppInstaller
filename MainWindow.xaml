@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="BetterAppInstaller.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BetterAppInstaller"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="BetterAppInstaller">
+    <Window.SystemBackdrop>
+        <DesktopAcrylicBackdrop/>
+    </Window.SystemBackdrop>
+    <Grid>
+        <!-- Define rows for InfoBar and NavigationView -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <!-- InfoBar at the top -->
+            <RowDefinition Height="*" />
+            <!-- Remaining space for NavigationView -->
+        </Grid.RowDefinitions>
+
+        <!-- InfoBar at the top -->
+        <InfoBar
+            Grid.Row="0"
+            IsOpen="True"
+            Severity="Warning"
+            Title="Warning"
+            Message="winget might not be present on this system. Certain features might not be functional." />
+
+        <!-- NavigationView takes the rest of the space -->
+        <NavigationView x:Name="nvBar"
+                        Grid.Row="1"
+                        IsSettingsVisible="True"
+                        IsBackButtonVisible="Collapsed"
+                        IsBackEnabled="False"
+                        SelectionChanged="NavigationView_SelectionChanged"
+                        Header="Welcome to BetterAppInstaller!"
+                        AlwaysShowHeader="True"
+                        PaneDisplayMode="Left"
+                        ExpandedModeThresholdWidth="500"
+                        SelectionFollowsFocus="Disabled"
+                        IsTabStop="False">
+
+            <NavigationView.MenuItems>
+                <NavigationViewItem Content="Browsers" Tag="Browsers" x:Name="BrowsersPageItem" SelectsOnInvoked="True">
+                    <NavigationViewItem.Icon>
+                        <FontIcon Glyph="&#xF6FA;" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem Content="Games" Tag="Gaming" x:Name="GamingPageItem" SelectsOnInvoked="True">
+                    <NavigationViewItem.Icon>
+                        <FontIcon Glyph="&#xE7FC;" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem Content="Social" Tag="Social" x:Name="SocialPageItem" SelectsOnInvoked="True">
+                    <NavigationViewItem.Icon>
+                        <SymbolIcon Symbol="Refresh" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+            </NavigationView.MenuItems>
+            <Frame x:Name="contentFrame" />
+        </NavigationView>
+    </Grid>
+</Window>

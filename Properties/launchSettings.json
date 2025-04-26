@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "BetterAppInstaller (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "BetterAppInstaller (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
